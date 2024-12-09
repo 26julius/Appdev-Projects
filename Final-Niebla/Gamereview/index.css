@@ -1,0 +1,343 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f0f5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+h1, h2, h3, h4 {
+    color: #333;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.app-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.login-container {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    padding: 45px;
+    width: 360px;
+    text-align: center;
+    margin-top: 40px;
+    transition: all 0.3s ease-in-out;
+    box-sizing: border-box;
+}
+
+.login-container:hover {
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+.login-container h1 {
+    font-size: 26px;
+    margin-bottom: 25px;
+    color: #007BFF;
+}
+
+.login-container h4 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #666;
+}
+
+.login-container input {
+    width: 100%;
+    padding: 14px;
+    margin: 12px 0;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+    box-sizing: border-box;
+}
+
+.login-container input:focus {
+    border-color: #007BFF;
+    outline: none;
+}
+
+.login-container button {
+    width: 100%;
+    padding: 14px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+.login-container button:hover {
+    background-color: #0056b3;
+}
+
+.login-container p {
+    margin-top: 20px;
+    color: #f44336;
+    font-size: 14px;
+}
+
+.reviews-container {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    padding: 35px;
+    width: 420px;
+    text-align: left;
+    margin-top: 40px;
+    transition: all 0.3s ease-in-out;
+    box-sizing: border-box;
+}
+
+.reviews-container:hover {
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+.reviews-container h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 25px;
+}
+
+.reviews-container textarea {
+    width: 100%;
+    padding: 14px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    resize: vertical;
+    height: 160px;
+    transition: border-color 0.3s ease;
+    box-sizing: border-box;
+}
+
+.reviews-container textarea:focus {
+    border-color: #007BFF;
+    outline: none;
+}
+
+.reviews-container button {
+    width: 100%;
+    padding: 14px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 12px;
+    transition: background-color 0.3s ease;
+}
+
+.reviews-container button:hover {
+    background-color: #218838;
+}
+
+.reviews-container ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 25px;
+}
+
+.reviews-container li {
+    padding: 18px;
+    margin-bottom: 18px;
+    background-color: #fafafa;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.reviews-container li h4 {
+    font-size: 18px;
+    margin: 0;
+    color: #333;
+}
+
+.reviews-container li p {
+    font-size: 15px;
+    margin-top: 12px;
+    color: #555;
+}
+
+.reviews-container li small {
+    display: block;
+    margin-top: 12px;
+    font-size: 13px;
+    color: #888;
+}
+
+@media (max-width: 768px) {
+    .login-container, .reviews-container {
+        width: 100%;
+        padding: 25px;
+    }
+
+    .login-container h1, .reviews-container h2 {
+        font-size: 24px;
+    }
+
+    .login-container input, .reviews-container textarea, .login-container button, .reviews-container button {
+        font-size: 15px;
+        padding: 12px;
+    }
+}
+
+@media (max-width: 480px) {
+    .login-container h1, .reviews-container h2 {
+        font-size: 22px;
+    }
+
+    .login-container button, .reviews-container button {
+        padding: 12px;
+    }
+}
+.reviews-container {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    width: 450px;
+    margin: 30px auto;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+}
+
+.reviews-container h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.reviews-container label {
+    display: block;
+    font-size: 16px;
+    margin: 15px 0 5px;
+    color: #333;
+}
+
+.reviews-container input,
+.reviews-container textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+}
+
+.reviews-container input:focus,
+.reviews-container textarea:focus {
+    border-color: #007BFF;
+    outline: none;
+}
+
+.reviews-container textarea {
+    resize: vertical;
+    height: 150px;
+}
+
+.reviews-container button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: background-color 0.3s ease;
+}
+
+.reviews-container button:hover {
+    background-color: #0056b3;
+}
+
+.reviews-container h3 {
+    font-size: 22px;
+    color: #333;
+    margin-top: 30px;
+}
+
+.reviews-container ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 20px;
+}
+
+.reviews-container .review-item {
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: #fafafa;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.reviews-container .review-item h4 {
+    font-size: 18px;
+    margin: 0;
+    color: #333;
+}
+
+.reviews-container .review-item p {
+    font-size: 14px;
+    margin-top: 10px;
+    color: #555;
+}
+
+.reviews-container .review-item small {
+    display: block;
+    margin-top: 10px;
+    font-size: 12px;
+    color: #888;
+}
+
+@media (max-width: 768px) {
+    .reviews-container {
+        width: 90%;
+        padding: 25px;
+    }
+
+    .reviews-container h2, .reviews-container h3 {
+        font-size: 24px;
+    }
+
+    .reviews-container button {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .reviews-container .review-item {
+        padding: 12px;
+        margin-bottom: 15px;
+    }
+
+    .reviews-container .review-item h4 {
+        font-size: 16px;
+    }
+
+    .reviews-container .review-item p {
+        font-size: 13px;
+    }
+}
