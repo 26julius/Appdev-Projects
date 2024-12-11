@@ -1,0 +1,859 @@
+/* General styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #121212;
+  color: #fff;
+  line-height: 1.6;
+}
+
+/* Home section */
+.home {
+  padding: 20px;
+}
+
+/* Hero Section */
+.hero-section {
+  text-align: center;
+  margin-bottom: 40px;
+  background-color: #1a1a1a;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.hero-section h1 {
+  font-size: 3rem;
+  color: #00c8ff;
+  letter-spacing: 5px;
+  font-family: 'Courier New', monospace;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.hero-section .tagline {
+  font-size: 1.1rem;
+  margin-top: 20px;
+  color: #bbb;
+}
+
+/* About Us Section */
+.about-company {
+  background-color: #222;
+  padding: 30px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
+
+.about-company h2 {
+  font-size: 2rem;
+  color: #00c8ff;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.about-company p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #ddd;
+}
+
+/* What We Offer Section */
+.what-we-offer {
+  background-color: #333;
+  padding: 30px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
+
+.what-we-offer h2 {
+  font-size: 2rem;
+  color: #00c8ff;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.what-we-offer ul {
+  list-style-type: none;
+  font-size: 1rem;
+  color: #ddd;
+}
+
+.what-we-offer li {
+  margin-bottom: 15px;
+}
+
+.what-we-offer strong {
+  color: #00c8ff;
+}
+
+/* Call to Action Section */
+.call-to-action {
+  text-align: center;
+  background-color: #444;
+  padding: 40px;
+  border-radius: 10px;
+}
+
+.call-to-action h2 {
+  font-size: 2rem;
+  color: #00c8ff;
+  margin-bottom: 20px;
+}
+
+.call-to-action p {
+  font-size: 1.2rem;
+  color: #ddd;
+  margin-bottom: 30px;
+}
+
+.call-to-action button {
+  background-color: #00c8ff;
+  color: #121212;
+  font-size: 1.1rem;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.call-to-action button:hover {
+  background-color: #008caa;
+}
+/* General Styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #121212;
+  color: #fff;
+  line-height: 1.6;
+}
+
+/* About Section */
+.about {
+  padding: 20px;
+}
+
+/* Header Section */
+.about-header {
+  text-align: center;
+  margin-bottom: 40px;
+  background-color: #1a1a1a;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.about-header h1 {
+  font-size: 3rem;
+  color: #00c8ff;
+  font-family: 'Courier New', monospace;
+  letter-spacing: 5px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.about-header p {
+  font-size: 1.1rem;
+  color: #bbb;
+  margin-top: 20px;
+}
+
+/* Mission Section */
+.mission-section {
+  background-color: #222;
+  padding: 30px;
+  margin-bottom: 40px;
+  border-radius: 10px;
+}
+
+.mission-section h2 {
+  font-size: 2rem;
+  color: #00c8ff;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.mission-section p {
+  font-size: 1.1rem;
+  color: #ddd;
+  line-height: 1.8;
+}
+
+/* Vision Section */
+.vision-section {
+  background-color: #333;
+  padding: 30px;
+  margin-bottom: 40px;
+  border-radius: 10px;
+}
+
+.vision-section h2 {
+  font-size: 2rem;
+  color: #00c8ff;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.vision-section p {
+  font-size: 1.1rem;
+  color: #ddd;
+  line-height: 1.8;
+}
+
+/* Core Values Section */
+.values-section {
+  background-color: #444;
+  padding: 30px;
+  margin-bottom: 40px;
+  border-radius: 10px;
+}
+
+.values-section h2 {
+  font-size: 2rem;
+  color: #00c8ff;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.values-section ul {
+  list-style-type: none;
+  font-size: 1rem;
+  color: #ddd;
+}
+
+.values-section li {
+  margin-bottom: 15px;
+}
+
+.values-section strong {
+  color: #00c8ff;
+}
+
+/* Activity Section */
+.activity-section {
+  background-color: #555;
+  padding: 30px;
+  margin-bottom: 40px;
+  border-radius: 10px;
+}
+
+.activity-section h2 {
+  font-size: 2rem;
+  color: #00c8ff;
+  margin-bottom: 20px;
+}
+
+.activity-section p {
+  font-size: 1.1rem;
+  color: #ddd;
+  line-height: 1.8;
+}
+
+/* Button Styling */
+.button {
+  background-color: #00c8ff;
+  color: #121212;
+  font-size: 1.1rem;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #008caa;
+}
+/* General styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #121212;
+  color: #fff;
+  line-height: 1.6;
+}
+
+/* Product Page */
+.productdiv {
+  background-color: #1a1a1a;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.productdiv h1 {
+  font-size: 2.5rem;
+  color: #00c8ff;
+  letter-spacing: 3px;
+  font-family: 'Courier New', monospace;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.productdiv p {
+  font-size: 1.2rem;
+  color: #bbb;
+  margin-top: 20px;
+}
+
+/* Reviews Section */
+.reviews, .companyReview {
+  background-color: #222;
+  padding: 30px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
+
+.reviews h1, .companyReview h1 {
+  font-size: 2rem;
+  color: #00c8ff;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.reviews p, .companyReview p {
+  font-size: 1.1rem;
+  color: #ddd;
+  line-height: 1.8;
+}
+
+/* Review Form */
+textarea {
+  width: 100%;
+  height: 120px;
+  padding: 10px;
+  background-color: #333;
+  border: 2px solid #00c8ff;
+  color: #fff;
+  font-size: 1rem;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  resize: none;
+}
+
+textarea::placeholder {
+  color: #bbb;
+}
+
+button {
+  background-color: #00c8ff;
+  color: #121212;
+  font-size: 1.1rem;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #008caa;
+}
+
+/* Review Cards */
+.review {
+  background-color: #333;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.review p {
+  font-size: 1.1rem;
+  color: #ddd;
+}
+
+.review i {
+  display: block;
+  margin-top: 10px;
+  color: #bbb;
+  font-size: 0.9rem;
+}
+
+/* Button Section */
+button[type="submit"] {
+  background-color: #00c8ff;
+  color: #121212;
+  font-size: 1.1rem;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #008caa;
+}
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #121212;
+  color: #E5E5E5;
+  padding: 0;
+  margin: 0;
+}
+
+/* Products Section */
+.productsdiv {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 20px;
+  text-align: center;
+  background-color: #1F1F1F;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+.productsdiv h1 {
+  font-size: 2.5rem;
+  color: #00C8FF;
+  margin-bottom: 20px;
+  font-family: 'Courier New', monospace;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+/* Product List Styling */
+ul {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+li {
+  background-color: #2A2A2A;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+li:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.5);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+p {
+  font-size: 1.2rem;
+  color: #00C8FF;
+  text-align: center;
+  margin-top: 10px;
+  font-family: 'Courier New', monospace;
+}
+
+/* Product Description */
+p.description {
+  font-size: 1rem;
+  color: #B0B0B0;
+  text-align: center;
+  margin-top: 10px;
+  line-height: 1.5;
+}
+
+/* Media Queries for Mobile */
+@media (max-width: 768px) {
+  .productsdiv {
+      margin: 20px;
+      padding: 15px;
+  }
+
+  .productsdiv h1 {
+      font-size: 2rem;
+  }
+
+  p {
+      font-size: 1rem;
+  }
+
+  ul {
+      grid-template-columns: 1fr 1fr;
+      gap: 15px;
+  }
+
+  li {
+      padding: 15px;
+  }
+
+  p.description {
+      font-size: 0.9rem;
+  }
+}
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #121212;
+  color: #E5E5E5;
+  line-height: 1.6;
+  padding: 0;
+  margin: 0;
+}
+
+/* Main Container */
+.company-profile {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #1F1F1F;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+/* Main Title */
+.company-profile h1 {
+  font-size: 3rem;
+  color: #00C8FF;
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: 'Courier New', monospace;
+  text-transform: uppercase;
+}
+
+/* Company Description */
+.company-profile p {
+  font-size: 1.2rem;
+  text-align: center;
+  color: #B0B0B0;
+  line-height: 1.8;
+  margin-bottom: 30px;
+}
+
+/* Company Overview */
+.company-overview, .company-structure, .company-values, .contact-info {
+  margin-bottom: 40px;
+}
+
+.company-overview h2, .company-structure h2, .company-values h2, .contact-info h2 {
+  font-size: 2rem;
+  color: #00C8FF;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Section Paragraphs */
+.company-overview p, .company-structure p, .company-values ul, .contact-info p {
+  font-size: 1rem;
+  color: #B0B0B0;
+  text-align: center;
+  line-height: 1.6;
+}
+
+/* List of Values */
+.company-values ul {
+  list-style: none;
+  padding: 0;
+}
+
+.company-values li {
+  font-size: 1rem;
+  color: #E5E5E5;
+  margin: 10px 0;
+}
+
+/* Positions in Team */
+.position {
+  margin: 20px 0;
+}
+
+.position h3 {
+  font-size: 1.5rem;
+  color: #00C8FF;
+  margin-bottom: 10px;
+}
+
+.position p {
+  font-size: 1rem;
+  color: #B0B0B0;
+  line-height: 1.6;
+  text-align: left;
+}
+
+/* Contact Info */
+.contact-info ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+.contact-info li {
+  font-size: 1rem;
+  color: #B0B0B0;
+  margin: 10px 0;
+}
+
+.contact-info a {
+  color: #00C8FF;
+  text-decoration: none;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .company-profile {
+      margin: 20px;
+      padding: 20px;
+  }
+
+  .company-profile h1 {
+      font-size: 2.5rem;
+  }
+
+  .company-overview h2,
+  .company-structure h2,
+  .company-values h2,
+  .contact-info h2 {
+      font-size: 1.8rem;
+  }
+
+  .company-values li {
+      font-size: 0.9rem;
+  }
+
+  .position h3 {
+      font-size: 1.2rem;
+  }
+
+  .position p {
+      font-size: 0.9rem;
+  }
+}
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #121212;
+  color: #E5E5E5;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+/* Main Container */
+.developer-container {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #1F1F1F;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+/* Company Info */
+.company-info {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.company-info h1 {
+  font-size: 3rem;
+  color: #00C8FF;
+  font-family: 'Courier New', monospace;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.company-info p {
+  font-size: 1.2rem;
+  color: #B0B0B0;
+  line-height: 1.8;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* Developer Profiles Section */
+.developer-profiles {
+  margin-bottom: 40px;
+}
+
+.developer-profiles h2 {
+  font-size: 2rem;
+  color: #00C8FF;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Developer Profile */
+.developer-profile {
+  background-color: #2C2C2C;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+.developer-profile h3 {
+  font-size: 1.8rem;
+  color: #00C8FF;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.developer-photo {
+  display: block;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 auto 20px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+}
+
+.developer-profile p {
+  font-size: 1rem;
+  color: #B0B0B0;
+  line-height: 1.6;
+  margin-bottom: 10px;
+  text-align: justify;
+}
+
+.developer-profile strong {
+  color: #00C8FF;
+}
+
+/* Skills and Technologies Section */
+.skills-technologies {
+  margin-bottom: 40px;
+}
+
+.skills-technologies h2 {
+  font-size: 2rem;
+  color: #00C8FF;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.skills-technologies ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+.skills-technologies li {
+  font-size: 1rem;
+  color: #B0B0B0;
+  margin: 10px 0;
+}
+
+/* Contact Info Section */
+.contact-info h2 {
+  font-size: 2rem;
+  color: #00C8FF;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.contact-info p {
+  font-size: 1rem;
+  color: #B0B0B0;
+  line-height: 1.6;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.contact-info ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.contact-info li {
+  font-size: 1rem;
+  color: #B0B0B0;
+  margin: 8px 0;
+}
+
+.contact-info a {
+  color: #00C8FF;
+  text-decoration: none;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .developer-container {
+      margin: 20px;
+      padding: 20px;
+  }
+
+  .company-info h1 {
+      font-size: 2.5rem;
+  }
+
+  .company-info p {
+      font-size: 1rem;
+      max-width: 100%;
+  }
+
+  .developer-profile h3 {
+      font-size: 1.5rem;
+  }
+
+  .developer-photo {
+      width: 150px;
+      height: 150px;
+  }
+
+  .skills-technologies ul {
+      padding-left: 0;
+  }
+
+  .contact-info ul {
+      padding-left: 0;
+  }
+}
